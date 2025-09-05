@@ -149,3 +149,30 @@
         -> keywords + syntax = program / app
 
     -> import is a keyword --> imports module --> module is a .py file
+22nd Aug
+=============
+->Identifiers
+ -> within Python an Identifier is used to indentify the following
+
+ ->Variables
+ ->functions
+ ->classes
+ ->objects
+ ->methods
+ ->modules
+ ->etc
+
+ ->Rules for naming identifiers
+ ->can contain
+ ->Letters(a-z)(A-Z)
+ ->Digits(0-9)
+ ->underscore(_)
+
+ ->Must start with 
+   ->A letter (a-z, A-Z)
+   ->Underscore(_)
+
+->Note: cannot start with digits
+->Note: Cannot be keywords
+=>Note: Case Sensitive(Name.name, NAME) (A, a)
+->Note: Always name the identifiers appropriately
