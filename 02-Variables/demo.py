@@ -103,12 +103,56 @@ f"valves per cylinder: {car_Valves_per_cylinder}\n turbo carger: {car_turbo_char
 f"gear box: {car_gearbox}\n drive type: {car_drivetype}" )
 
 #Usecase: 2
-product_title = "\033[1m HIGHLANDER"
-product_description = "Men white Slim Fit Printed Casual Shirt"
-product_ratings = 4.2
-product_totalratings = input ("8.5k")
-product_price = 461
-Product_MRP = 1399
-Product_discount = input("67% OFF")
+#product_title = "\033[1m HIGHLANDER"
+#product_description = "Men white Slim Fit Printed Casual Shirt"
+#product_ratings = 4.2
+#product_totalratings = input ("8.5k")
+#product_price = 461
+#Product_MRP = 1399
+#Product_discount = input("67% OFF")
+#print (f"price details: Maximum Retail Price (incl. of all taxes) RS. {Product_MRP} \n Discount {Product_discount}\n selling price (incl. of all taxes) {product_price}")
 
-print (f"price details: Maximum Retail Price (incl. of all taxes) RS. {Product_MRP} \n Discount {Product_discount}\n selling price (incl. of all taxes) {product_price}")
+#usecase: 3
+
+#Operators
+#Arithmetic Operators
+n1 = 3
+n2 = 2
+print(f"sum of n1 and n2 is {n1+n2}")
+print(f"Difference of n1 and n2 is {n1-n2}")
+print(f"Product of n1 and n2 is {n1*n2}")
+print(f"Division of n1 and n2 is {n1/n2}")
+print(f"Modulus of n1 and n2 is {n1%n2}")
+print(f"floor division of n1 and n2 is {n1//n2}")
+print(f"exponentiation of n1 and n2 is {n1**n2}")
+
+#without Compound assignment
+x=10
+x=x+5
+print(x)
+
+#with Compound assignment
+x=10
+x+=5
+print(x)
+
+n1=3
+n2=2
+n3=3
+print(n1==n2)
+print(n1==n3)
+print(n1>=n2)
+print(n1<=n2)
+print(n1!=n2)
+
+#Logical Operators
+x=7
+y=5
+a=15
+b=9
+resultand = x>y and a<b
+print(resultand)
+resultor = x>y or a<b
+print(resultor)
+resultnot = x>y or a<b
+print(not resultnot)
