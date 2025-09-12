@@ -324,3 +324,14 @@
             -> or - return true, at least one condition is true
             -> not - negates the boolean value, if value is true then its result false
 
+26th August
+====================
+
+Membership Operators: It is used to test if a squence is present in the object
+-> in - returns true if the sequence is present in the specified value
+-> not in - returns true if the sequence is not present in the specified value.
+
+Identity operators: used to compare the objects
+-> is - returns true if both the variables are pointing to the same memory location.
+-> is not - returns true if both the variables are not pointing to the same memory location
+
