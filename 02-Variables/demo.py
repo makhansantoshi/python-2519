@@ -156,3 +156,65 @@ resultor = x>y or a<b
 print(resultor)
 resultnot = x>y or a<b
 print(not resultnot)
+
+#Membership Operators - It is used to test if the specified sequence is present in object
+a_list = [10,20,30]
+is_present = 10 in a_list
+print(is_present)
+is_present = 100 in a_list
+print(is_present)
+is_present = 100 not in a_list
+print(is_present)
+data = "hello"
+is_present = "l" in data
+print(is_present)
+is_present = "a" in data
+print(is_present)
+
+#Identity Operator
+
+n1 = 10
+n2 = 10
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+
+n1 = [10,20,30]
+n2 = [10,20,30]
+print(id(n1))
+print(id(n2))
+print(n1 is n2)
+print (n1 is not n2)
+
+#data Types
+num = 10 #<class 'int'>
+print(type(num))
+
+num = 10.5 #<class 'float'>
+print(type(num))
+
+num = 10 + 5j
+print(type(num)) #<class 'complex'>
+
+canVote = True
+print(type(canVote)) 
+
+list_num = [10,20,30]
+print (type(list_num))
+
+list_num = (10,20,30)
+print (type(list_num))
+
+list_num = {10,20,30,10}
+print (type(list_num))
+
+list_num = {"n1":10,"n2":20,"n3":30}
+print (type(list_num))
+
+x = None
+print(type(x))
+
+class student: #class
+    pass #skip do nothing
+edify_student = student()
+print(type(edify_student))

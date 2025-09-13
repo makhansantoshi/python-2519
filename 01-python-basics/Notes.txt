@@ -335,3 +335,31 @@ Identity operators: used to compare the objects
 -> is - returns true if both the variables are pointing to the same memory location.
 -> is not - returns true if both the variables are not pointing to the same memory location
 
+Data Type
+It defines what kind of data a variable can hold.
+Numeric data types
+ -> Numbers with or without decimal points
+ ->Integer - whole numbers 1,2,3 to -1,-2,-3
+ ->float - 3.14,2.15,10.5
+ ->complex - this are like maths numbers
+           Math: a+ib (i-imaginary)
+           Python: a+bj (j-imaginary)
+->Text type: A sequence of characters between single ' ' or double "" quotes.
+  NOTE: In python doex not support single character data type.
+
+-> Boolean Type - return True or false
+
+->sequence type - string is also a sequence
+->list: Multiple values stored as a sequence, represented in [] ->Mutable(changable)
+->Tuple:Multiple values stored a s sequence, represented in ()-> Immutable(can't changable)
+->set type
+->set: multiple values stored as a sequence, represented in {} - >unique data only 
+->Frozen data : multiple values stored as a sequence, represented in {} - >unique data only and Immutable
+->Dictionary(Mapping)Type: Multiple values are store as a sequence of key and value Pair, represented in {}
+->None type: Represents nothing, absence of values
+-> Note: All the above are predefined data types by python , we can also create our custom data types based on requirements.
+->NOTE: Strings, sequence types (***)
+
+
+
+
