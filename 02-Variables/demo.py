@@ -218,3 +218,39 @@ class student: #class
     pass #skip do nothing
 edify_student = student()
 print(type(edify_student))
+
+#Student Management System
+
+student_id = 101
+student_name = "Santoshi"
+student_age = 33
+
+#Scores
+quiz_score = 80
+assignment_score = 70
+exam_score = 100
+
+#attendance
+student_attendance = 60
+
+#calculations
+total_score = quiz_score + assignment_score + exam_score
+avg_score = total_score/3
+
+student_passed = avg_score > 75
+
+#increment student attendance
+
+student_attendance += 1 #short hand form
+
+#award eligibility
+award_eligibility = student_attendance >= 90 and student_passed
+
+#process output
+print("===========Student Report==========")
+print(f"Student Name: {student_name}")
+print(f"Student Total Score: {total_score}")
+print(f"Student Average Score: {avg_score}")
+print(f"Student Current Attendance: {student_attendance}")
+print(f"Student Passed: {student_passed}")
+print(f"Student awarded: {award_eligibility}")
