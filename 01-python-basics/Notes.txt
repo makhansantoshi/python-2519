@@ -360,6 +360,19 @@ Numeric data types
 -> Note: All the above are predefined data types by python , we can also create our custom data types based on requirements.
 ->NOTE: Strings, sequence types (***)
 
+3rd september
+===========================
+-> student management System
 
+-> Type conversion & Type Casting
 
+-> The above are used to convert from one data type to another data type
 
+-> Type Conversion: Implicit/Automatic means python by default perform conversions when its safe and there is no data loss
+-> widening : Conversion of smaller data types to larger data types
+
+-> Type Casting: Explicit/ anually should be done by developers using built in functions
+->Narrowing - Conversion of larger data types into smaller
+int() - convert into integer - int(3) - 3
+float() - convert into float - int(3.5) - 3.5
+str() - conert into string value - str(100) - "100".

@@ -254,3 +254,33 @@ print(f"Student Average Score: {avg_score}")
 print(f"Student Current Attendance: {student_attendance}")
 print(f"Student Passed: {student_passed}")
 print(f"Student awarded: {award_eligibility}")
+
+#Type Conversion -> Automatic / Implicit
+a = 10
+b = 3.5
+c = a + b
+print (c)
+print(type(c))
+
+#Type Casting -> Explicit/ Manual
+x = 100
+y = x
+print(type(x))
+#explicit conversion
+y = float(x)
+print(y)
+print(type(y))
+
+# Data loss can occur
+r = 3.14
+value = int(r)
+print(value)
+
+# strings
+value = "100"
+print(type(value))
+value_int = int(value)
+print(value_int/10)
+
+value = "hundered"
+value_int = int(value)
