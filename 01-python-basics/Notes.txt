@@ -371,8 +371,42 @@ Numeric data types
 -> Type Conversion: Implicit/Automatic means python by default perform conversions when its safe and there is no data loss
 -> widening : Conversion of smaller data types to larger data types
 
--> Type Casting: Explicit/ anually should be done by developers using built in functions
+-> Type Casting: Explicit/ manually should be done by developers using built in functions
 ->Narrowing - Conversion of larger data types into smaller
 int() - convert into integer - int(3) - 3
 float() - convert into float - int(3.5) - 3.5
 str() - conert into string value - str(100) - "100".
+
+4th september
+=====================
+
+Control Structures/ Statements
+
+control structures are used to control the flow of execution in the program
+
+Categories
+
+-> Decision Making(conditional Statement)
+->Looping Statements(interative Statements)
+-> branching Statements(jump Statements)
+
+-> Conditional/Decision Making Statements
+-> this are used to evaluate the conditions.(True/False)
+->if: Runs a block of code if the condition is true
+->if else :Runs a block of code if the condition is true and runs another block of code if the codition is false.
+->elif Ladder: use to run multiple conditions.
+-> Match-Case: Alternat to if else. when you have multiple conditions.
+
+->Identation:Refer to spaces to the beginning of the line that will define block of code(conditional,functions,classes,etc)
+  -> one space or recommended 4 spaces.
+  ->all lines of block of code must have same indentation
+  ->improper indentation: Syntax error.
+
+-> input() function - Takes user input from keyboard as a string.
+>Syntax
+variable = input("enter some value:")
+
+->Ternary Operator - is also called as conditional operator.it is used as short hand of if else , generally used for single expressions.
+->
+syntax
+value-if-true if condition else value-if-false
