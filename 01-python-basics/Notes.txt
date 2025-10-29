@@ -415,3 +415,9 @@ value-if-true if condition else value-if-false
 ====================
 Nested Conditionals
 ->conditionals inside conditionals
+->Looping statements(iterative statements) - use to exceute the block of code repeatedly based on the condition.
+->For repetative task and automation tasks.
+->while loop: Runs a block of condition as long as specified condition is true.
+->For loop: used to iterate over a sequence (strings,lists,tuples,ranges,etc).
+->dir(): used to list all the valid attributes and functionalities.
+->range(): used to generate a sequence
