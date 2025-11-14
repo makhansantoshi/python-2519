@@ -421,3 +421,30 @@ Nested Conditionals
 ->For loop: used to iterate over a sequence (strings,lists,tuples,ranges,etc).
 ->dir(): used to list all the valid attributes and functionalities.
 ->range(): used to generate a sequence
+
+6th sep 2025
+==================
+ ->range(start,stop,step)
+  ->start: starting value by default is 0
+  ->stop: ending value(excluded)
+  ->step: increment default is 1
+
+-> few example
+ ->range(5): 0 1 2 3 4
+ ->range(1,6): 1 2 3 4 5
+ ->range(1,6,1): 1 2 3 4 5
+ ->range(2,10,2): 2 4 6 8
+
+-> To do the step reverse use -1
+ ->range(10,1,-1): 10 9 8 7 6 5 4 3 2 
+ ->range(10,1,-1): 10 8 6 4 2
+
+ -> Nested Loops -> Loops inside Loops
+ -> Branching Statements (Jump Statements)
+  -> used to control the flow of iterations inside the Loops
+  ->break:exists the loop entierly
+  ->continue : skip the current iteration and continue the loop
+  ->pass: does nothing, generally used as place holder
+
+ 
+

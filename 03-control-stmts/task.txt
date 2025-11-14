@@ -11,7 +11,7 @@ get the user input for the following information:
 
  Determine the discount based on the following rules:
  For students in grades 9 to 12:
- If they are academictoppers, apply a 20% discount.
+ If they are academic toppers, apply a 20% discount.
  otherwise apply a 10% discount.
  for students in grade 6 to 8, apply a 5% discount.
  for grades below 6, apply no discount.

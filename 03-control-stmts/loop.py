@@ -51,3 +51,86 @@ for num in range(10):
     print(num)
 for num in range(10):
     print("hi")
+
+for num in range(1,6):
+    print(num)
+
+for num in range(1,6,1):
+    print(num)
+
+for num in range(2,10,2):
+    print(num)
+
+for num in range(1,10,1):
+    print(num)
+
+for num in range(10,1,-1):
+    print(num)
+
+for num in range(10,1,-2):
+    print(num)
+
+#get even numbers Loop with condition
+print("printing even numbers from 1 to 20")
+num = 2
+while num <=20:
+    print(num)
+    num += 2
+
+#get even numbers Loop with condition
+#print("printing even numbers from 1 to 20")
+#num = 2
+#while num <=20:
+   # if num % 2 ==0:
+       # print(num)
+        #num += 1
+
+#get even numbers
+#print("printing even numbers from 1 to 20")
+#for num in range(2,22,2):
+   # print(num) 
+
+#List of Courses
+course_list = ["python", "cloud","devops", "ai"]
+for course in course_list:
+    print(course)
+
+#Nested Loops
+for i in range(1,4):
+    for j in range(1,4):
+        print(f"{i}x{j} = {i*j}")
+    print("---")
+#nested Loops
+i=1
+while i<4:
+    j=1
+    while j<4:
+        print(f"{i}x{j} = {i*j}")
+        j+=1
+    print("----")
+    i+=1
+#Branching statements (Jump statements)
+#break : exists the loop entirely
+for num in range(5):
+    if num == 3:
+        break #loop will stop here
+        print(num)
+#branching statements(Jump statements)
+#break :exists the loop entirely
+for num in range(5):
+    if num == 3:
+        break
+    print(num)
+#continue : skip the current iteration and continue the loop
+for num in range(5):
+    if num == 3:
+        continue
+    print(num)
+# used as place holder:Pass
+if 5>9:
+    pass
+# used as place holder:Pass
+for num in range(5):
+    if num == 3:
+        pass
+    print(num)
