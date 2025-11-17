@@ -1,0 +1,7 @@
+#Simulate otp verification system
+-> say you are building OTP verification system
+-> USer will be asked to enter 4 digit OTP
+-> user will be given 3 attempts to enter correct OTP
+-> when attempts reach beyond 3 say maximum attempts reached, try after 24 hrs
+-> If the OTP is correct, say Transaction Success
+
