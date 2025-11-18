@@ -446,5 +446,46 @@ Nested Conditionals
   ->continue : skip the current iteration and continue the loop
   ->pass: does nothing, generally used as place holder
 
+  8th Sep 2025
+  =======================
+   -> Strings : one of the important and widely used data type.
+
+   -> In Python string is a sequence of characters enclosed within single or double quotes.
+      We can use triple quotes also but it is not recoomended.
+      -> NOTE : triple quotes are recommendd for multi line strings
+
+  ->if you want to use 'inside a string enclose with double quotes 
+
+  ->if you want to use "inside a string enclose with single quotes 
+
+  -> If you want to use both single ' or " double then use triple quotes
+
+->Indexing in python
+ 
+ ->Python allows you to access each character in a string using an index number
+ ->Index starts from 0 (zero)
+ ->indexing goes in both positive and negative directions Tools
+ ->text = "python"
+
+   0    1   2   3   4   5 (Positive)
+   p    y   t   h   o   n
+   -6              -2  -1(negative)
+
+   ->print(text[index])
+   ->print(text[4])
+
+-> If index is not given properly, leads to Errors
+
+->NOTE: We have predefined function len() - >returns number of items in an object
+
+->slicing in python : Slicing means cutting a substring from the original stringusing index
+  
+  ->To Access range of characters in a string
+  ->string(start:stop:step) same like Range(start,stop,step)
+
+  ->start: index to start from (inclusive)
+  ->stop: index to stop from (exclusive)
+  ->step: how many characters to step(default is 1)
+
  
 
