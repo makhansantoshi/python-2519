@@ -87,3 +87,73 @@ print(text[2:5])#start:stop->tho
 
 print(text[:4])#start(0):stop(4)->pyth
 
+text = "python"
+print(text[-1]) 
+print(text[-4:-1])
+
+ #0    1   2   3   4   5 (Positive)
+  # p    y   t   h   o   n
+  #-6    5   4   3  -2  -1(negative)
+
+print(text[-4:-1:1])
+print(text[-4:-1:-1])#empty
+print(text[-4:-6:-1])#ty
+print(text[1:4:-1])
+#Reversing string
+print(text[::-1])
+
+text="python"
+reversed_text=""
+for char in text:
+    reversed_text= char + reversed_text
+    print("Reversed text", reversed_text)
+
+#Reassinging
+text = "Hello"
+print(text)
+
+text = "hi"
+print(text)
+
+#StringImmutability
+
+text = "hello"
+print(text)
+
+#modify hello to Hello
+#text[0]="H"
+#print(text)#TypeError: 'str' object does not support item assignment
+
+#String Concatenation
+s1="Hello"
+s2="Good Morining"
+print(s1+s2)
+
+#String Formatting
+name = "Ravi"
+age = 30
+print("My Age is ",age)
+print(f"My Age is {age}")
+print("My Age is ", +age)
+print("My Age is " +str(age))
+
+#String Repetation
+text = "Ha"
+Laugh = "HAHAHAHA"
+print(Laugh)
+
+Laugh_hard = text * 10
+print(Laugh_hard)
+
+#String Methods
+
+text = "Ha"
+print(dir(text))
+
+#Simulate mail functionality using strings
+user_given_email = input("Enter Your Email ID: ")
+format_email = user_given_email.lower() + "@gmail.com"
+print("user given ID: "+user_given_email)
+print("Gmail Auto Format ID: "+format_email)
+
+#simulate pan correction -> https://www.pan.utiitsl.com/panonline_ipg/forms/csfPan.html/csfPreForm

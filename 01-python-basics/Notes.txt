@@ -487,5 +487,19 @@ Nested Conditionals
   ->stop: index to stop from (exclusive)
   ->step: how many characters to step(default is 1)
 
+9th Sep 2025
+===============
+  -> Negative slicing - (backwards)
+  -> Positive slicing (Forward)
+
+  ->string immutability: Once a string is created cannot be changed
+
+  -> String Formatting
+
+  -> String repetation: Multiply the string using *operator
+ 
+ ->String Methods: String class provides multiple methods to work with string related operations
+  -> input: RAvi2Krishna
+  ->Output: ravi2krishna
  
 
